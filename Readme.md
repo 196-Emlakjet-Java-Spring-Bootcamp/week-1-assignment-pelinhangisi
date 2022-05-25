@@ -45,35 +45,35 @@ JVM üzerinde uygulama çalışırken uygulamayı en düşük seviyede izleyebil
 <hr>
 
 ### Java Language Features
-* <b>Sealed Classes</b>
+* <b>Sealed Classes</b><br>
 Sealed Class lar ve arayüzler, hangi diğer sınıfların veya arayüzlerin onları genişletebileceğini veya uygulayabileceğini kısıtlar.
-* <b>Pattern Matching for Switch (Preview)</b>
+* <b>Pattern Matching for Switch (Preview)</b><br>
 Karmaşık veri odaklı sorguların kısa ve öz ve güvenli bir şekilde ifade edilebilir hale gelmesini sağlar.Bu JEP, anahtar ifadelerinin ve ifadelerinin anlamlılığını ve uygulanabilirliğini genişletir.
 
 ### Libraries Improvements
-* <b>Enhanced Pseudo-Random Number Generators</b>
+* <b>Enhanced Pseudo-Random Number Generators</b><br>
 Sözde rastgele sayı üreteçleri için yeni arayüz türleri ve uygulama sunar.
-* <b>New macOS Rendering Pipeline</b>
+* <b>New macOS Rendering Pipeline</b><br>
 Yeni Apple Metal çerçevesini kullanarak macOS için yeni bir Java 2D işleme hattı uygular.
-* <b>Context-Specific Deserialization Filters</b>
+* <b>Context-Specific Deserialization Filters</b><br>
 JDK 17'de filtreler bağlama özel olabilir ve geliştirici tarafından dinamik olarak tanımlanabilir.
-* <b>Foreing Function & Memory API</b>
+* <b>Foreing Function & Memory API</b><br>
 JDK 17, Java çalışma zamanının dışındaki kod ve verilerle tümleştirmenin çok daha kolay bir yolunu sunar - Yabancı İşlev ve Bellek (FFM) API'si.
-* <b>Vector API</b>
+* <b>Vector API</b><br>
 Java 17, Java 16'nın halihazırda önerilen Vector API bölümüne geliştirmeler sunar. Geliştirmeler, geri bildirimlere yanıt olarak yapılmıştır ve işte önemli değişiklikler: UTF-8 karakter kod çözme gibi karakterler üzerindeki işlemleri desteklemek için API'de yapılan geliştirmeler. Spesifik olarak, kısa vektörler ve karakter dizileri arasında karakterleri kopyalamak için yöntemler ve integral vektörlerle imzasız karşılaştırmalar için yeni vektör karşılaştırma operatörleri ekliyoruz.Byte vektörlerini boolean dizilerine çevirmek için API'de yapılan geliştirmeler vs.
 
 ### Future Proofing
-* <b>Strongly Encapsulate JDK Internals</b>
+* <b>Strongly Encapsulate JDK Internals</b><br>
 JDK'nın dahili API'lerine erişen önceki sürümlerle uyumlu kod başarılı bir şekilde artık varsayılan olarak çalışmayabilir.JDK 17, option- -illegal -access ve strong encapsulation kullanımına izin vermemektedir.  
-* <b>Restore Always-Strict Floating-Point Semantics</b>
+* <b>Restore Always-Strict Floating-Point Semantics</b><br>
 Bu JEP, java.lang.Math ve java.lang.StrictMath gibi hassas kitaplıkların geliştirilmesini kolaylaştırır. Ayrıca platformun bu yönünde daha fazla düzenlilik sağlar.
 
 ### Deprecations and Removals
-* <b>Remove RMI Activation</b>
+* <b>Remove RMI Activation</b><br>
 Uzak Yöntem Çağırma (RMI) etkinleştirmesi etkin bir şekilde kaldırılır. Java SE 15'te JEP 385 tarafından kaldırılmak üzere kullanımdan kaldırılmıştır.
 
 ### New Platforms 
-* <b>macOS/AArch64 Port</b>
+* <b>macOS/AArch64 Port</b><br>
 Apple, 2020'de Merkezi İşlem Birimini (CPU) Intel'in x86-64'ünden ARM64/AArch64 mimarisini kullanan Apple tasarımı çiplere taşımak için iki yıllık bir geçiş planı (Apple Silicon) duyurdu.<br>
 JEP 391, JDK'yı yeni mimariye taşımakla ilgilidir. <br>
 Kol tabanlı işlemciler her zaman gömülü ve mobil pazarı hedef alıyorlardı. Enerji tüketimini düşük tutarken yeterli performans sunarlar. Ama bu değişiyor. Bazı donanım satıcıları, x86-64 mimarisiyle rekabet edebilmek için artık AArch64 adı verilen 64-bit Arm mimarisini kullanıyor. <br>
