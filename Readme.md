@@ -24,14 +24,19 @@ Unix tabanlı işletim sistemlerinde yaygın şekilde kullanılan script yapıs�
     * strip(), stripLeading(), stripTrailing() methodları
     * lines() methodu
 <br>
+
 * <b>JEP 321 HTTP Client (Standard)</b>
 HTTP İstemcisi Java 11'de standart hale getirildi. java.net.http. <br>
+
 * <b>Local-Variable Type Interface </b>
 Artık parametre tanımlarken parametre tipi belirtmeden, sadece `var` keyword ile tanımlama yapabiliyoruz. <br>
+
 * <b>Local-Variable Syntax for Lambda Parameters </b>
 Lambda tanımlamaları daha önce explicitly ve implicitly olarak 2 şekilde yapılabilmekteydi. Artık implicitly olarak "var" kullanarak tanımlayabiliyoruz. <br>
+
 * <b>Nest-Based Access Control</b>
 Java SE 11'de Java Sanal Makinesi, sınıfların ve arabirimlerin yuva adı verilen yeni bir erişim denetimi bağlamında düzenlenmesini destekler . Yuvalar, mantıksal olarak aynı kod varlığının parçası olan, ancak farklı dosyalara derlenen sınıfların ve arabirimlerin, derleyicilerin erişilebilirliği genişleten köprü yöntemleri eklemesine gerek kalmadan classbirbirlerinin üyelerine erişmesine izin verir. <br>
+
 * <b>JEP 328: Java Flight Recorder</b>
 JVM üzerinde uygulama çalışırken uygulamayı en düşük seviyede izleyebilmek için bir araç.
 
